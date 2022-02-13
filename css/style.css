@@ -223,16 +223,20 @@ img {
   border-radius: 0.6rem;
 }
 
+.page_top i {
+  display: block;
+  color: #3b5441;
+  font-size: 4rem;
+  text-align: right;
+  margin-right: 1.5rem;
+}
+
 #footer {
   background-color: #3b5441;
   color: #fff;
   font-size: 0.7rem;
   padding: 0.8rem 2rem;
   text-align: center;
-}
-
-.shiruetto img {
-  width: 100%;
 }
 
 @media screen and (max-width: 600px) {

@@ -186,6 +186,15 @@ img {
   border: solid 0.1rem $key-color;
   border-radius: 0.6rem;
 }
+.page_top {
+  i {
+    display: block;
+    color: $key-color;
+    font-size: 4rem;
+    text-align: right;
+    margin-right: 1.5rem;
+  }
+}
 
 // footer
 #footer {
@@ -194,11 +203,6 @@ img {
   font-size: 0.7rem;
   padding: 0.8rem 2rem;
   text-align: center;
-}
-.shiruetto {
-  img {
-    width: 100%;
-  }
 }
 
 // sp
