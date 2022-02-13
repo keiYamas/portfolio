@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Kei's Portfolio Website</title>
+    <meta name="description" content="kei's portofolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo_portofolio.png" alt="logo"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main_visual">
+        <div class="main_visual__fade">
+          <picture class="main_visual__image">
+            <img src="img/main_visual.jpg" alt="main_visual">
+          </picture>
+        </div>
+      </div>
+
+      <section id="about" class="box">
+        <h2 class="sec-title">About</h2>
+        <ul>
+          <li>神奈川県川崎市と群馬県前橋市の２拠点にて、フリーランスのWebプログラマをしております。</li>
+          <li>Web制作におけるHTML・CSS・JavaScriptコーディング、スマートフォンサイト、WordPress導入・サイト構築等</li>
+          <li>url: www.xxxxxx.jp</li>
+          <li>mail: keiyama11.09@gmail.com</li>
+        </ul>
+        <p>
+          山崎　桂　　Kei Yamasaki<br>
+        </p>
+      </section>
+      <section id="works" class="box">
+        <h2 class="sec-title">Works</h2>
+        <ul>
+          
+        </ul>
+      </section>
+      <section id="blog" class="box">
+        <h2 class="sec-title">Blog</h2>
+        <p>日々の備忘録として<a href="#">”Keiの技術メモ"</a>にblogを作成しております。</p>
+      </section>
+      <section id="contact" class="box">
+        <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2022 Kei's Portofolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
